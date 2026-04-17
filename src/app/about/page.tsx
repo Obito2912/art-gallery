@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutPage() {
     return (
         <section className="page-wrap">
-            <div className="about-grid reveal-in">
+            <div className="about-grid">
                 <article className="about-card">
                     <h2>About Me</h2>
                     <p>
