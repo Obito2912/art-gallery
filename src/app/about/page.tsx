@@ -29,7 +29,7 @@ export default function AboutPage() {
                         width={800}
                         height={1000}
                         style={{ width: "100%", height: "auto" }}
-                        priority
+                        loading="lazy"
                     />
                 </aside>
             </div>

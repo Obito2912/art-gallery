@@ -16,6 +16,7 @@ export function ArtGrid({ items }: ArtGridProps) {
                             src={item.src}
                             alt={item.title}
                             fill
+                            loading="lazy"
                             sizes="(max-width: 760px) 100vw, (max-width: 1020px) 50vw, 33vw"
                         />
                     </div>
