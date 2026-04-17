@@ -24,7 +24,7 @@ export default function AboutPage() {
 
                 <aside className="accent-frame">
                     <Image
-                        src="images/laura-duran-taino-roots-la-casita-where-rain-sings.jpg"
+                        src="/art-gallery/images/laura-duran-taino-roots-la-casita-where-rain-sings.jpg"
                         alt="Featured artwork from the Taino Roots series"
                         width={800}
                         height={1000}
