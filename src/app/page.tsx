@@ -17,6 +17,8 @@ export default function Home() {
           alt={childrenIllustrations[2].title}
           width={300}
           height={500}
+          loading="eager"
+          style={{ height: "auto" }}
         />
         <div className="hero-card__info">
           <p className="hero-copy">

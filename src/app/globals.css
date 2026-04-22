@@ -90,7 +90,6 @@ body {
 }
 
 .hero-card {
-  display: flex;
   gap: 7px;
   border: 1px solid #1a1a1a;
   background: var(--card);
@@ -210,10 +209,6 @@ body {
 .art-image__hero {
   object-fit: cover;
   transition: transform 350ms ease;
-  /* filter: blur(4px); */
-  width: 100%;
-  max-width: 300px;
-  height: auto;
 }
 
 .art-card:hover .art-image {
@@ -332,16 +327,17 @@ body {
 }
 
 @media (min-width: 760px) {
+  .hero-card {
+    display: flex;
+    flex-direction: row;
+  }
+
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .big-screens-only {
     display: block;
-  }
-
-  .hero-card {
-    flex-direction: row;
   }
 
   .about-grid {

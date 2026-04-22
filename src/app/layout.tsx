@@ -27,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${displayFont.variable} ${bodyFont.variable}`}>
-      <body className="site-shell">
+    <html lang="en" className={`${displayFont.variable} ${bodyFont.variable}`} suppressHydrationWarning={true}>
+      <body className="site-shell" suppressHydrationWarning={true}>
         <SiteHeader />
         <main className="site-main">{children}</main>
         <SiteFooter />

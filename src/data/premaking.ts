@@ -7,25 +7,25 @@ export type Premaking = {
 
 export const premaking: Premaking[] = [
   {
-    src: "/art-gallery/images/duran-sleeping-dragon.jpeg",
+    src: "/art-gallery/images/duran-sleeping-dragon.webp",
     title: "Sleeping Dragon",
     medium: "Charcoal and pastel",
     year: "2024",
   },
   {
-    src: "/art-gallery/images/laura-duran-taino-roots-grandmas-kitchen.jpg",
+    src: "/art-gallery/images/laura-duran-taino-roots-grandmas-kitchen.webp",
     title: "Taino Roots: Grandma's Kitchen",
     medium: "Mixed media collage",
     year: "2025",
   },
   {
-    src: "/art-gallery/images/laura-duran-taino-roots-la-casita-where-rain-sings.jpg",
+    src: "/art-gallery/images/laura-duran-taino-roots-la-casita-where-rain-sings.webp",
     title: "Taino Roots: La Casita Where Rain Sings",
     medium: "Acrylic and texture paste",
     year: "2025",
   },
   {
-    src: "/art-gallery/images/laura-duran-taino-roots-the-bohio-pantry.jpg",
+    src: "/art-gallery/images/laura-duran-taino-roots-the-bohio-pantry.webp",
     title: "Taino Roots: The Bohio Pantry",
     medium: "Acrylic on board",
     year: "2025",
