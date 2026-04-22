@@ -332,6 +332,15 @@ body {
     flex-direction: row;
   }
 
+  .hero-card__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title {
+    margin: auto;
+  }
+
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
