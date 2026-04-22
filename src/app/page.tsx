@@ -13,8 +13,8 @@ export default function Home() {
         </div>
         <Image
           className="art-image__hero big-screens-only"
-          src={childrenIllustrations[2].src}
-          alt={childrenIllustrations[2].title}
+          src={childrenIllustrations[0].src}
+          alt={childrenIllustrations[0].title}
           width={300}
           height={500}
           loading="eager"
